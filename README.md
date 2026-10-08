@@ -1,17 +1,17 @@
 # homebrew-pika-tools
 
-Homebrew tap for [pika-tools](https://github.com/dev-pikapik/pika-tools), a menu bar app for macOS.
+Homebrew tap for [pikapik](https://github.com/dev-pikapik/pika-tools), a menu bar app for macOS.
 
 ## Install
 
 ```bash
-brew install --cask dev-pikapik/pika-tools/pika-tools
+brew install --cask dev-pikapik/pika-tools/pikapik
 ```
 
 ## Update
 
 ```bash
-brew upgrade --cask pika-tools
+brew upgrade --cask pikapik
 ```
 
 The app also updates itself from its menu.
@@ -19,5 +19,5 @@ The app also updates itself from its menu.
 ## Uninstall
 
 ```bash
-brew uninstall --cask --zap pika-tools
+brew uninstall --cask --zap pikapik
 ```
