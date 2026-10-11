@@ -1,6 +1,6 @@
 cask "pikapik" do
-  version "1.32.1"
-  sha256 "c68c764eacd9625a43952a736286c8b96895a25cf00051db9d065ee9cd9519c2"
+  version "1.32.2"
+  sha256 "6ccbebec39fae35a1e2bcce77080324b921f62efdc995cb5ed608e9fcefbfdf8"
 
   url "https://github.com/dev-pikapik/pika-tools/releases/download/v#{version}/pikapik.zip"
   name "pikapik"
@@ -27,7 +27,12 @@ cask "pikapik" do
 
   uninstall quit: "com.pesotchi.pika-tools"
 
-  zap trash: [
+  zap launchctl: "com.pesotchi.pika-tools.fans",
+      delete:    [
+        "/Library/LaunchDaemons/com.pesotchi.pika-tools.fans.plist",
+        "/Library/PrivilegedHelperTools/com.pesotchi.pika-tools.fans",
+      ],
+      trash:     [
     "~/Library/Application Scripts/com.pesotchi.pika-tools.compress",
     "~/Library/Application Scripts/com.pesotchi.pika-tools.convert",
     "~/Library/Application Scripts/com.pesotchi.pika-tools.new-file",
