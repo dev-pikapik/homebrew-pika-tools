@@ -1,6 +1,6 @@
 cask "pikapik" do
-  version "1.37.3"
-  sha256 "a91d38fc290113ff86a993e4ea320280fac8758e137126992c05c8c14d02d3cb"
+  version "1.38.0"
+  sha256 "bf3c51bf975bcc012bd49a1ce0ae1d6639a0acff235cb15b71b5fc9d0c50a5f5"
 
   url "https://github.com/dev-pikapik/pika-tools/releases/download/v#{version}/pikapik.zip"
   name "pikapik"
@@ -33,13 +33,17 @@ cask "pikapik" do
         "/Library/PrivilegedHelperTools/com.pesotchi.pika-tools.fans",
       ],
       trash:     [
+    "~/Library/Application Scripts/com.pesotchi.pika-tools.archive",
     "~/Library/Application Scripts/com.pesotchi.pika-tools.compress",
     "~/Library/Application Scripts/com.pesotchi.pika-tools.convert",
     "~/Library/Application Scripts/com.pesotchi.pika-tools.new-file",
+    "~/Library/Application Scripts/com.pesotchi.pika-tools.preview",
     "~/Library/Caches/com.pesotchi.pika-tools",
+    "~/Library/Containers/com.pesotchi.pika-tools.archive",
     "~/Library/Containers/com.pesotchi.pika-tools.compress",
     "~/Library/Containers/com.pesotchi.pika-tools.convert",
     "~/Library/Containers/com.pesotchi.pika-tools.new-file",
+    "~/Library/Containers/com.pesotchi.pika-tools.preview",
     "~/Library/HTTPStorages/com.pesotchi.pika-tools",
     "~/Library/Preferences/com.pesotchi.pika-tools.plist",
   ]
