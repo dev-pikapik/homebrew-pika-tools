@@ -1,4 +1,4 @@
-# homebrew-pika-tools
+# pikapik for Homebrew
 
 Homebrew tap for [pikapik](https://github.com/dev-pikapik/pika-tools), a menu bar app for macOS.
 
