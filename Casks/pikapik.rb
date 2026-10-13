@@ -1,6 +1,6 @@
 cask "pikapik" do
-  version "1.39.1"
-  sha256 "7e40f8df19e72540f798c2836621a15a8c01852d6166bcdd4360cc43b7129c18"
+  version "1.39.2"
+  sha256 "44c9b44fc0b3b87dcb300d090f7b3d3efaf0adbc029d2d07d6ed1fe94ce30df1"
 
   url "https://github.com/dev-pikapik/pika-tools/releases/download/v#{version}/pikapik.zip"
   name "pikapik"
@@ -38,6 +38,7 @@ cask "pikapik" do
     "~/Library/Application Scripts/com.pesotchi.pika-tools.convert",
     "~/Library/Application Scripts/com.pesotchi.pika-tools.new-file",
     "~/Library/Application Scripts/com.pesotchi.pika-tools.preview",
+    "~/Library/Application Support/pika-tools",
     "~/Library/Caches/com.pesotchi.pika-tools",
     "~/Library/Containers/com.pesotchi.pika-tools.archive",
     "~/Library/Containers/com.pesotchi.pika-tools.compress",
